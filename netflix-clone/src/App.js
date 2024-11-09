@@ -1,10 +1,12 @@
 
 import './App.css';
+import Home from './pages/Home/Home.js';
 
 function App() {
   return (
     <div className="App">
-     <h1>hellow</h1>
+      <Home/>
+   
 
     </div>
   );
