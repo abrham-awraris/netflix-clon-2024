@@ -1,0 +1,102 @@
+.banner {
+    margin-top: 10vh;
+    height: 84vh;
+    margin-bottom: 40px;
+    color: #fff;
+    object-fit: contain;
+}
+
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    padding-left: 30px;
+    /* height: 190px; */
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    max-width: 360px;
+    height: 80px;
+}
+.banner_button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+/* Basic box styling */
+.play {
+    width: 90px;            /* Width of the box */
+    height: 40px;           /* Height of the box */
+    background-color:  #fff; /* Background color */
+    color: #000;            /* Text color */
+    display: flex;           /* Centering content */
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    /* border-radius: 10px;     Rounded corners */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.play:hover {
+    transform: scale(1.1);         /* Slightly enlarge the box */
+    background-color: #2980b9;     /* Change background color on hover */
+    cursor: pointer;               /* Change cursor to pointer */
+}
+
+ /* .banner__button_play {
+    color: #000;
+    background-color: #fff; 
+
+} */
+.My-List {
+    width: 90px;            /* Width of the box */
+    height: 40px;           /* Height of the box */
+    background-color:  #fff; /* Background color */
+    color: #000;            /* Text color */
+    display: flex;           /* Centering content */
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    /* border-radius: 10px;     Rounded corners */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+.My-List:hover {
+    color: #000;
+    background-color: #c6c6c6;
+    transition: a110.2s;
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+.banner__buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+.banner__fadeBottom {
+    height: 40vh;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgb(37, 37, 37, 0.91),
+        #111
+    );
+}
