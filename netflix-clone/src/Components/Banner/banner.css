@@ -27,19 +27,8 @@
     max-width: 360px;
     height: 80px;
 }
-.banner_button {
-    cursor: pointer;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding: 1rem 3rem;
-    margin-right: 2rem;
-    background-color: rgba(51, 51, 51, 0.5);
-}
-/* Basic box styling */
+
+
 .play {
     width: 90px;            /* Width of the box */
     height: 40px;           /* Height of the box */
@@ -52,12 +41,14 @@
     font-weight: bold;
     /* border-radius: 10px;     Rounded corners */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    border: none;
+    outline: none;
 }
 
 /* Hover effect */
 .play:hover {
     transform: scale(1.1);         /* Slightly enlarge the box */
-    background-color: #2980b9;     /* Change background color on hover */
+    background-color: #fff;     /* Change background color on hover */
     cursor: pointer;               /* Change cursor to pointer */
 }
 
@@ -69,15 +60,17 @@
 .My-List {
     width: 90px;            /* Width of the box */
     height: 40px;           /* Height of the box */
-    background-color:  #fff; /* Background color */
+    background-color: transparent;; /* Background color */
     color: #000;            /* Text color */
     display: flex;           /* Centering content */
     align-items: center;
     justify-content: center;
     font-size: 1rem;
     font-weight: bold;
-    /* border-radius: 10px;     Rounded corners */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    /* border-radius: 10px;     */
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    border: none;
+    outline: none;
 }
 .My-List:hover {
     color: #000;
